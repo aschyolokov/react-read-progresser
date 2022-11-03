@@ -1,10 +1,13 @@
 import React from 'react';
+import { Progresser } from 'widgets';
 import styles from './index.module.scss';
 
 function App() {
   return (
     <div
       className={styles.app}>
+
+      <Progresser />
 
       <p>Enim occaecat est nisi mollit nostrud et est fugiat ea officia tempor. Lorem id veniam non veniam adipisicing. Reprehenderit et aute dolor qui qui tempor aute fugiat nulla fugiat mollit consectetur eiusmod cillum. Eiusmod laborum aliqua proident labore.</p>
 
